@@ -5,19 +5,23 @@
 //  Created by Norman Sánchez on 24/03/26.
 //
 
-public enum PokemonType {
-    case weed
+public enum PokemonType: Sendable {
+    case normal
+    case fighting
+    case flying
+    case poison
+    case ground
+    case rock
     case fire
     case water
-    case earth
-    case bug
+    case grass
+    case electric
     case psychic
-    case flying
     case ice
     case dragon
-    case ghost
     case dark
+    case bug
+    case ghost
     case steel
     case fairy
-    case poison
 }

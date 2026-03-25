@@ -6,7 +6,7 @@
 //
 import SwiftUI
 
-public struct Pokemon: Equatable, Hashable {
+public struct Pokemon: Equatable, Hashable, Sendable {
     public let id: Int
     public let name: String
     public let types: [PokemonType]
