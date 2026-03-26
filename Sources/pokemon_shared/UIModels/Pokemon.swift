@@ -19,3 +19,9 @@ public struct Pokemon: Equatable, Hashable, Sendable {
         self.url = url
     }
 }
+
+public struct DetailsPokemon: Equatable, Hashable, Sendable {
+    public let weight: String
+    public let height: String
+    public let baseExperience: Int
+}
